@@ -10,7 +10,7 @@ function Result() {
     const { catagoryName } = useParams()
     const [results, setResult] = useState([]) // Initialize as an empty array
     useEffect(() => {
-        axios.get(`${productUrl}/products/catagory/${catagoryName}`)
+        axios.get(`${productUrl}/products/category/${catagoryName}`)
             .then((res) => {
                 console.log(res.data);
                 setResult(res.data)

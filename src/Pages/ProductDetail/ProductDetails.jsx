@@ -4,6 +4,7 @@ import axios from 'axios'
 import { productUrl } from '../../API/endPoints'
 import ProductCard from '../../Component/Product/ProductCard'
 import LayOut from '../../Component/LayOut/LayOut'
+import Loader from '../../Component/Loader/Loader'
 
 function ProductDetails() {
     const { productId } = useParams()

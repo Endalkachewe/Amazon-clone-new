@@ -3,8 +3,8 @@ import Rating from '@mui/material/Rating'
 import CurrencyFormat from '../CurrencyFormat/CurrencyFormat'
 import classes from './product.module.css'
 import { Link } from 'react-router-dom'
-function ProductCard({ products }) {
-    const {image,title,id,rating,price}=products
+function ProductCard({ product }) {
+    const {image,title,id,rating,price}=product
   return (
     <div className={`${classes.card_container}`}>
       <Link to={`/products/${id}`}>
