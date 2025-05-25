@@ -3,7 +3,7 @@ import Header from './Component/Header/Header'
 import LowerHeader from './Component/LowerHeader/LowerHeader'
 import Carousel from './Component/Carousel/CarouselEffect'
 import Catagory from './Component/Catagory/Catagory'
-import Product from './Component/Product/product'
+import Product from './Component/Product/Product'
 import Routing from './Routing'
 function App() {
   return (
