@@ -8,7 +8,7 @@ import ProductCard from '../../Component/Product/ProductCard'
 
 function Result() {
     const { catagoryName } = useParams()
-    const [results, setResult] = useState([]) // Initialize as an empty array
+    const [results, setResult] = useState([])  
     useEffect(() => {
         axios.get(`${productUrl}/products/category/${catagoryName}`)
             .then((res) => {
