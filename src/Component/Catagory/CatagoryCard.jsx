@@ -10,7 +10,7 @@ function CatagoryCard({data}) {
                  <h4>{data.title}</h4> 
               </span>
               <img src={data.imgLink} alt="" />
-              <p>Show now</p>
+              <p>Shop now</p>
           </Link>
     </div>
   )

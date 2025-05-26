@@ -41,7 +41,7 @@ function ProductCard({ product, flex,renderDescription,renderAdd }) {
                   <CurrencyFormat amount={price}/>
               </div>
               {renderAdd &&<button className={classes.button} onClick={addToCart}>
-                  add cart
+                  Add to cart
               </button> }
               
           </div>

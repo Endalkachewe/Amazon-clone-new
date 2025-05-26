@@ -1,11 +1,13 @@
+
 .card_container {
     width: 250px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     padding: 10px;
     color: black;
     text-decoration: none;
     position: relative;
-}
+    font-size: 12px;
+  }
 
 .card_container:hover .button {
     display: block;
@@ -20,15 +22,17 @@
 
 .button {
     display: none;
-    padding: 5px 10px;
+    padding: 5px 5px;
     font-weight: 700;
     border: none;
     cursor: pointer;
-    background-color: var(--primary-color);
-    width: 100%;
-    margin: 10px 0; /* Fixed margin */
+    background-color: peru;
+    width: 200px;
+    margin: 10px 0; 
     border-radius: 30px;
     position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .button:hover {
@@ -43,11 +47,12 @@
 
 .Product_container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Fixed grid template */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
     margin: 100px auto;
-    max-width: 1450px;
+    max-width: 1000px;
     gap: 50px;
     justify-items: center;
+    justify-content: center;
 }
 
 .Product_container section {
