@@ -118,8 +118,7 @@
 }
 
 .order_container a:hover, 
-.delivery:hover, .logo_container a:hover,
-.lower_container:hover{
+.delivery:hover, .logo_container :hover{
     border: 1px solid white;
     border-radius: 3px;
 }
