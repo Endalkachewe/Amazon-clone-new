@@ -118,7 +118,11 @@
 }
 
 .order_container a:hover, 
-.delivery:hover, .logo_container :hover{
+.delivery:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.logo_container img:hover{
     border: 1px solid white;
     border-radius: 3px;
 }
