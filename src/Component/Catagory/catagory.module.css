@@ -1,6 +1,6 @@
 .catagory {
     background-color: white;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Fixed box-shadow syntax */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
 }
 
 .catagory img {
@@ -30,7 +30,7 @@
 
 .catagory_container {
     position: relative;
-    margin-top: -70px;
+    margin-top: -30px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
